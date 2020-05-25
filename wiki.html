@@ -1,0 +1,18 @@
+---
+layout: default
+title: Wikilog
+---
+
+<h1>Latest Posts</h1>
+<h3><a href="./wiki_reverse.html">Sorting oldest to latest</a></h3>
+<ul>
+  {% assign documents = site.wikis | sort: 'updated' | reverse %}
+  {% for doc in documents %}
+    {% if doc.public != 'false' and doc.title != 'wiki' %}
+      <li>
+        <h2><a href="{{ doc.url }}">{{ doc.title }}</a></h2>
+        {{ doc.excerpt }}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

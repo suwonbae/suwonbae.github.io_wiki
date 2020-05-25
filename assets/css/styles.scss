@@ -1,0 +1,124 @@
+---
+---
+
+@import "main";
+@import "highlight";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background: $background-color;
+  font: 18px/1.4 $helvetica;
+  color: $white;
+}
+@media (min-width: 800px) {
+  body {
+    width: 800px;
+    margin: auto;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $helveticaNeue;
+  color: $white;
+  font-weight: bold;
+
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+
+  @include mobile {
+    line-height: 1.4;
+  }
+}
+
+h1 {
+  font-size: 30px;
+  a {
+    color: white;
+  }
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+p {
+  margin: 15px 0;
+}
+
+a {
+  color: $beige;
+  text-decoration: none;
+	cursor: pointer;
+  &:hover, &:active {
+    color: $blue;
+  }
+}
+
+.wrapper {
+  margin-bottom: 50px;
+}
+@media (max-width: 1120px) {
+    .wrapper {
+    }
+}
+
+.site-name {
+  float: none;
+  margin: 0;
+  color: $white;
+  cursor: pointer;
+  font-family: $helveticaNeue;
+  font-weight: 500;
+  font-size: 30;
+  letter-spacing: 1px;
+
+  a {
+      color: $white;
+
+      &:hover, &:active {
+	color: $white;
+      }
+  }
+}
+
+nav {
+  float: none;
+  margin-top: 23px;
+  font-family: $helveticaNeue;
+  font-size: 18px;
+
+  @include mobile {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 16px;
+  }
+
+  a {
+    margin-left: 20px;
+    color: $brown;
+    text-align: left;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+    &:hover, &:active {
+      color: $orange;
+    }
+
+    @include mobile {
+      margin: 0 10px;
+    }
+  }
+}

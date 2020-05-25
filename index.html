@@ -1,0 +1,18 @@
+---
+layout: default
+title: Suwon Bae
+---
+
+<h1>Latest Posts</h1>
+
+<ul>
+  {% assign documents = site.wikis | sort: 'updated' | reverse %}
+  {% for doc in documents limit: 15 %}
+    {% if doc.public != 'false' and doc.title != 'wiki' %}
+      <li>
+        <h2><a href="{{ doc.url }}">{{ doc.title }}</a></h2>
+        {{ doc.excerpt }}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

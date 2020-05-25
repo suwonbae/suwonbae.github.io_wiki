@@ -1,0 +1,6 @@
+- name: About
+  link: /about.html
+- name: Wikilog
+  link: /wiki.html
+- name: Category
+  link: /category.html
