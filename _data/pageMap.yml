@@ -1,0 +1,80 @@
+2020-05-22-test:
+    type: wiki
+    title: Test1
+    summary: 'code block & highlight'
+    parent: ""
+    url: /wikis/2020-05-22-test
+    updated: '2020/05/25 15:20:34'
+    children: []
+2020-05-22-test2:
+    type: wiki
+    title: test2
+    summary: 'math equation'
+    parent: ""
+    url: /wikis/2020-05-22-test2
+    updated: '2020/05/25 15:20:15'
+    children: []
+bananas:
+    type: wiki
+    title: Bananas
+    summary: 'What is a banana?'
+    parent: ""
+    url: /wikis/bananas
+    updated: '2020/05/25 15:21:48'
+    children: []
+index:
+    type: wiki
+    title: wiki
+    summary: ""
+    parent: ""
+    url: /wikis/index
+    updated: '2020/05/25 15:24:12'
+    children: []
+iPhone:
+    type: wiki
+    title: iPhone
+    summary: ""
+    parent: ""
+    url: /wikis/iPhone
+    updated: '2020/05/25 15:13:20'
+    children: [iPhone7, iPhoneSE]
+iPhone7:
+    type: wiki
+    title: 'iPhone 7'
+    summary: ""
+    parent: iPhone
+    url: /wikis/iPhone7
+    updated: '2020/05/25 15:13:46'
+    children: []
+iPhoneSE:
+    type: wiki
+    title: 'Two editions of iPhone SE'
+    summary: ""
+    parent: iPhone
+    url: /wikis/iPhoneSE
+    updated: '2020/05/25 15:13:51'
+    children: [iPhoneSE1, iPhoneSE2]
+iPhoneSE1:
+    type: wiki
+    title: 'The first edition of SE'
+    summary: ""
+    parent: iPhoneSE
+    url: /wikis/iPhoneSE1
+    updated: '2020/05/25 15:13:57'
+    children: []
+iPhoneSE2:
+    type: wiki
+    title: 'The SE of iPhoneSE'
+    summary: ""
+    parent: iPhoneSE
+    url: /wikis/iPhoneSE2
+    updated: '2020/05/25 15:14:02'
+    children: []
+lemons:
+    type: wiki
+    title: Lemons
+    summary: 'What is a lemon?'
+    parent: ""
+    url: /wikis/lemons
+    updated: '2020/05/25 15:21:49'
+    children: []

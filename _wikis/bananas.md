@@ -1,11 +1,17 @@
 ---
-layout: wiki
-title: Bananas
-summary: What is a banana?
-date: 2020/05/22
-updated: 2020/05/25 02:40:08
+layout  : wiki
+title   : Bananas
+summary : What is a banana?
+date    : 2020/05/22
+updated : 2020/05/25 15:21:48
 category: fun
+tag     : fruit
+toc     : true
+public  : true
+parent  : 
+latex   : false
 ---
+
 A banana is an edible fruit – botanically a berry – produced by several kinds
 of large herbaceous flowering plants in the genus Musa.
 
