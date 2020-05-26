@@ -30,6 +30,13 @@ autoNumber: "AMS"
 <p>written on {{ page.date | date: "%m.%d.%Y" }}</p>
 <p>edited on {{ page.updated | date: "%m.%d.%Y" }}</p>
 
+
+{% if page.tags %}
+	<div class="post-tag">
+		{{ page.tags }}
+	</div>
+{% endif %}
+
 {% if page.toc == false %}
 {% endif %}
 
