@@ -4,6 +4,8 @@ title: Tag
 permalink: /tag/
 public: true
 ---
+<!-- https://github.com/johngrib/johngrib-jekyll-skeleton  --!>
+
 {% assign tagMap = site.data.tagMap %}
 {% assign tagList = site.data.tagList %}
 <div>
@@ -33,7 +35,7 @@ public: true
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                     <span>{{ post.title }}</span>
                     <div class="post-meta" style="float: right;">
-                        {{ post.updated | date: "%Y.%m.%d" }}
+                        {{ post.updated | date: "%m.%d.%Y" }}
                     </div>
             {% if post.summary != empty and post.summary != undefined %}
                         <div class="post-excerpt">

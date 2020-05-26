@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+// https://github.com/johngrib/johngrib-jekyll-skeleton
+
 const YAML = require('yamljs');
 const fs = require('fs');
 const path = './_wikis'
