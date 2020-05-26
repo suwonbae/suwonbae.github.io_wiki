@@ -5,5 +5,15 @@ equation:
 fruit:
     - {fileName: bananas}
     - {fileName: lemons}
+herb:
+    - {fileName: growingherb}
+cilantro:
+    - {fileName: growingherb}
+basil:
+    - {fileName: growingherb}
+rosemary:
+    - {fileName: growingherb}
+mint:
+    - {fileName: growingherb}
 citrus:
     - {fileName: lemons}

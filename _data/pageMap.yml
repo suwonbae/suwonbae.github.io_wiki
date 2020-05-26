@@ -22,13 +22,21 @@ bananas:
     url: /wikis/bananas
     updated: '2020/05/25 15:21:48'
     children: []
+growingherb:
+    type: wiki
+    title: 'How easy is it to grow cilantro?'
+    summary: 'transplant, water, and harvest'
+    parent: ""
+    url: /wikis/growingherb
+    updated: '2020/05/26 02:39:29'
+    children: []
 index:
     type: wiki
     title: wiki
     summary: ""
     parent: ""
     url: /wikis/index
-    updated: '2020/05/25 15:24:12'
+    updated: '2020/05/26 02:38:09'
     children: []
 iPhone:
     type: wiki
