@@ -1,9 +1,9 @@
 ---
 layout  : category
-title   : iPhone
+title   : research
 summary : 
-date    : 2020/05/25 01:12:16
-updated : 2020/05/26 14:21:28
+date    : 2020/05/26 05:30:37
+updated : 2020/05/26 05:46:47
 tag     : 
 toc     : true
 public  : true
@@ -13,4 +13,4 @@ latex   : false
 * TOC
 {:toc}
 
-#
+# 

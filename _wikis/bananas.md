@@ -3,12 +3,12 @@ layout  : wiki
 title   : Bananas
 summary : What is a banana?
 date    : 2020/05/22
-updated : 2020/05/25 15:21:48
+updated : 2020/05/26 05:31:24
 category: fun
 tag     : fruit
 toc     : true
 public  : true
-parent  : 
+parent  : [[fun]]
 latex   : false
 ---
 
