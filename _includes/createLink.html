@@ -44,8 +44,8 @@
 
         function link(content) {
             content = content.replace(/\\\[\[(.+?)\]\]/g, '\\[\\[$1\\]\\]');
-            content = content.replace(/\[\[(.+?)\]\]\{(.+?)\}/g, '<a href="./$1.html">$2</a>');
-            content = content.replace(/\[\[(.+?)\]\]/g, '<a href="./$1.html">$1</a>');
+            content = content.replace(/\[\[(.+?)\]\]\{(.+?)\}/g, '<a href="../$1">$2</a>');
+            content = content.replace(/\[\[(.+?)\]\]/g, '<a href="../$1">$1</a>');
             content = content.replace(/\\\[\\\[(.+?)\\\]\\\]/g, '[[$1]]');
             return content;
         }

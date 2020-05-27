@@ -1,26 +1,9 @@
 name: Suwon Bae
 
 collections:
-  categories:
-    output: true
   wikis:
     output: true
-
-defaults:
-  - scope:
-      path: ""
-      type: "categories"
-    values:
-      layout: "category"
-  - scope:
-      path: ""
-      type: "wikis"
-    values:
-      layout: "wiki"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+    permalink: /:collection/:path/
 
 highlighter: rouge
 

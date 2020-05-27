@@ -2,26 +2,34 @@
     type: wiki
     title: Test1
     summary: 'code block & highlight'
-    parent: ""
+    parent: research
     url: /wikis/2020-05-22-test
-    updated: '2020/05/25 15:20:34'
+    updated: '2020/05/26 05:30:50'
     children: []
 2020-05-22-test2:
     type: wiki
     title: test2
     summary: 'math equation'
-    parent: ""
+    parent: fun
     url: /wikis/2020-05-22-test2
-    updated: '2020/05/25 15:20:15'
+    updated: '2020/05/26 05:31:32'
     children: []
 bananas:
     type: wiki
     title: Bananas
     summary: 'What is a banana?'
-    parent: ""
+    parent: fun
     url: /wikis/bananas
-    updated: '2020/05/25 15:21:48'
+    updated: '2020/05/26 05:31:24'
     children: []
+fun:
+    type: wiki
+    title: fun
+    summary: ""
+    parent: index
+    url: /wikis/fun
+    updated: '2020/05/26 05:42:22'
+    children: [2020-05-22-test2, bananas, lemons]
 growingherb:
     type: wiki
     title: 'How easy is it to grow cilantro?'
@@ -36,15 +44,15 @@ index:
     summary: ""
     parent: ""
     url: /wikis/index
-    updated: '2020/05/26 02:38:09'
+    updated: '2020/05/26 05:31:00'
     children: []
 iPhone:
     type: wiki
     title: iPhone
     summary: ""
-    parent: ""
+    parent: index
     url: /wikis/iPhone
-    updated: '2020/05/25 15:13:20'
+    updated: '2020/05/26 14:21:28'
     children: [iPhone7, iPhoneSE]
 iPhone7:
     type: wiki
@@ -52,7 +60,7 @@ iPhone7:
     summary: ""
     parent: iPhone
     url: /wikis/iPhone7
-    updated: '2020/05/25 15:13:46'
+    updated: '2020/05/26 23:54:18'
     children: []
 iPhoneSE:
     type: wiki
@@ -82,7 +90,15 @@ lemons:
     type: wiki
     title: Lemons
     summary: 'What is a lemon?'
-    parent: ""
+    parent: fun
     url: /wikis/lemons
-    updated: '2020/05/25 15:21:49'
+    updated: '2020/05/26 05:31:39'
     children: []
+research:
+    type: wiki
+    title: research
+    summary: ""
+    parent: index
+    url: /wikis/research
+    updated: '2020/05/26 05:46:47'
+    children: [2020-05-22-test]

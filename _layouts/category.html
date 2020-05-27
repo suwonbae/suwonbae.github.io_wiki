@@ -2,33 +2,32 @@
 layout: default
 ---
 
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+{% assign thisName = page.id | remove: '/wikis/' %}
+<input type="hidden" id="thisName" value="{{ thisName }}"/>
 
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-tex2jax: {
-inlineMath: [['$','$'], ['\\(','\\)']],
-processEscapes: true},
-jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
-extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js"],
-TeX: {
-extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
-equationNumbers: {
-autoNumber: "AMS"
-}
-}
-});
-</script>
+<h1>{{ page.title }}</h1>
+<p>written on {{ page.date | date: "%B %-d, %Y" }}</p>
+<p>edited on {{ page.updated | date: "%B %-d, %Y" }}</p>
 
-<h1>{{ page.name }}</h1>
+{% raw %}
+<div id="parent-list"></div>
+{% endraw %}
 
-{{ content }}
+{% if page.tags %}
+	<div class="post-tag">
+		{{ page.tags }}
+	</div>
+{% endif %}
 
-<h2>Related Posts</h2>
-<ul>
-  {% assign filtered_wikis = site.wikis | where: 'category', page.name %}
-  {% for wiki in filtered_wikis %}
-    <li><a href="{{ wiki.url }}">{{ wiki.title }}</a></li>
-  {% endfor %}
-</ul>
+
+<article class="post-content">
+    {{ content }}
+    <div id="document-list"></div>
+</article>
+
+</div>
+{% include createLink.html %}
+
+<script src="/js/axios.min.js"></script>
+<script async src="/js/parent.js"></script>
+<script async src="/js/category.js"></script>
