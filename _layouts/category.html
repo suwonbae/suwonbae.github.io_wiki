@@ -5,25 +5,28 @@ layout: default
 {% assign thisName = page.id | remove: '/wikis/' %}
 <input type="hidden" id="thisName" value="{{ thisName }}"/>
 
-<h1>{{ page.title }}</h1>
-<p>written on {{ page.date | date: "%B %-d, %Y" }}</p>
-<p>edited on {{ page.updated | date: "%B %-d, %Y" }}</p>
+<div class="post">
+	<header class="post-header">
+		<h1 class="page-title">{{ page.title }}</h1>
+		<p>written on {{ page.date | date: "%B %-d, %Y" }}</p>
+		<p>edited on {{ page.updated | date: "%B %-d, %Y" }}</p>
 
 {% raw %}
-<div id="parent-list"></div>
+		<div id="parent-list"></div>
 {% endraw %}
 
 {% if page.tags %}
-	<div class="post-tag">
-		{{ page.tags }}
-	</div>
+		<div class="post-tag">
+			{{ page.tags }}
+		</div>
 {% endif %}
 
 
-<article class="post-content">
-    {{ content }}
-    <div id="document-list"></div>
-</article>
+	</header>
+	<article class="post-content">
+    	{{ content }}
+    	<div id="document-list"></div>
+	</article>
 
 </div>
 {% include createLink.html %}

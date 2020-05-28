@@ -2,6 +2,14 @@ data:
     - {fileName: 2020-05-22-test}
 equation:
     - {fileName: 2020-05-22-test2}
+vmd:
+    - {fileName: arguments}
+    - {fileName: VMD}
+tcl:
+    - {fileName: arguments}
+    - {fileName: VMD}
+arguments:
+    - {fileName: arguments}
 fruit:
     - {fileName: bananas}
     - {fileName: lemons}

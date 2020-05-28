@@ -14,6 +14,14 @@
     url: /wikis/2020-05-22-test2
     updated: '2020/05/26 05:31:32'
     children: []
+arguments:
+    type: wiki
+    title: 'VMD - command line arguments'
+    summary: 'Passing argumets so that tcl script can read'
+    parent: VMD
+    url: /wikis/arguments
+    updated: '2020/05/27 23:14:22'
+    children: []
 bananas:
     type: wiki
     title: Bananas
@@ -44,7 +52,7 @@ index:
     summary: ""
     parent: ""
     url: /wikis/index
-    updated: '2020/05/26 05:31:00'
+    updated: '2020/05/27 22:53:47'
     children: []
 iPhone:
     type: wiki
@@ -102,3 +110,19 @@ research:
     url: /wikis/research
     updated: '2020/05/26 05:46:47'
     children: [2020-05-22-test]
+scripting:
+    type: wiki
+    title: scripting
+    summary: ""
+    parent: index
+    url: /wikis/scripting
+    updated: '2020/05/27 22:46:02'
+    children: [VMD]
+VMD:
+    type: wiki
+    title: VMD
+    summary: 'Visual Molecular Dynamics'
+    parent: scripting
+    url: /wikis/VMD
+    updated: '2020/05/27 22:53:29'
+    children: [arguments]

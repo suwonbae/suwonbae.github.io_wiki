@@ -130,3 +130,20 @@ nav {
 .invisible {
     display: none;
 }
+
+ul.tag-list {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    li {
+        float: left;
+    }
+
+    li a {
+        padding-right: 5px;
+        text-decoration: none;
+    }
+}

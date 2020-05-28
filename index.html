@@ -3,16 +3,32 @@ layout: default
 title: Suwon Bae
 ---
 
-<h1>Latest Posts</h1>
-
-<ul>
-  {% assign documents = site.wikis | sort: 'updated' | reverse %}
-  {% for doc in documents limit: 15 %}
-    {% if doc.public != 'false' and doc.title != 'wiki' %}
-      <li>
-        <h2><a href="{{ doc.url }}">{{ doc.title }}</a></h2>
-        {{ doc.excerpt }}
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+<div>
+	<h2>Latest Posts</h2>
+	<ul class="post-list">
+{% assign documents = site.wikis | sort: 'updated' | reverse %}
+{% for doc in documents limit: 15 %}
+	{% if doc.public != 'false' and doc.title != 'wiki' %}
+		<li>
+			<div>
+				<a class="post-link" href="{{ doc.url }}">
+					<div class="post-meta">
+						{{ doc.updated | date: "%B %-d, %Y" }}
+						-
+						{{ doc.title }}
+					</div>
+				</a>
+				<ul class="tag-list">
+					<li class="post-tag">
+						{% assign tags = doc.tag %}
+						{% for tag in tags %}
+						#{{ tag }}
+						{% endfor %}
+					</li>
+				</ul>
+			</div>
+		</li>
+	{% endif %}
+{% endfor %}
+	</ul>
+</div>

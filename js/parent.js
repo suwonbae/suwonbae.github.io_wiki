@@ -29,7 +29,7 @@
         if (plist == null || plist.length < 1) {
             return "";
         }
-        var pr = "parent: "
+        var pr = "category: "
         for (var i = 0; i < plist.length; i++) {
             pr += `<a href="${plist[i].url}">${plist[i].title}</a>`;
             if (i < plist.length - 1) {
