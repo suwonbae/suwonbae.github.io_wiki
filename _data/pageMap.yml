@@ -38,6 +38,22 @@ fun:
     url: /wikis/fun
     updated: '2020/05/26 05:42:22'
     children: [2020-05-22-test2, bananas, lemons]
+git:
+    type: wiki
+    title: git
+    summary: ""
+    parent: tools
+    url: /wikis/git
+    updated: '2020/05/29 04:59:19'
+    children: [gitupdate]
+gitupdate:
+    type: wiki
+    title: 'how to update git on mac'
+    summary: 'Apple''s git to the official distro of Git'
+    parent: git
+    url: /wikis/gitupdate
+    updated: '2020/05/30 00:52:29'
+    children: []
 growingherb:
     type: wiki
     title: 'How easy is it to grow cilantro?'
@@ -52,7 +68,7 @@ index:
     summary: ""
     parent: ""
     url: /wikis/index
-    updated: '2020/05/27 22:53:47'
+    updated: '2020/05/29 05:00:16'
     children: []
 iPhone:
     type: wiki
@@ -118,6 +134,14 @@ scripting:
     url: /wikis/scripting
     updated: '2020/05/27 22:46:02'
     children: [VMD]
+tools:
+    type: wiki
+    title: tools
+    summary: ""
+    parent: index
+    url: /wikis/tools
+    updated: '2020/05/29 04:58:40'
+    children: [git]
 VMD:
     type: wiki
     title: VMD

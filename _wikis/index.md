@@ -3,7 +3,7 @@ layout  : wikiindex
 title   : wiki 
 summary : 
 date    : 2020/05/25 01:09:31
-updated : 2020/05/27 22:53:47
+updated : 2020/05/29 05:00:16
 category:
 tags    : 
 toc     : true
@@ -28,3 +28,7 @@ parent  :
 # [[scripting]]
 	* [[VMD]]
 		* [[arguments]]
+
+# [[tools]]
+	* [[git]]
+		* [[gitupdate]]
