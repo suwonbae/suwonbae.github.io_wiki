@@ -16,6 +16,10 @@ arguments:
 fruit:
     - {fileName: bananas}
     - {fileName: lemons}
+git:
+    - {fileName: git}
+version:
+    - {fileName: git}
 herb:
     - {fileName: growingherb}
 cilantro:
@@ -30,3 +34,5 @@ citrus:
     - {fileName: lemons}
 string:
     - {fileName: variable-to-string}
+MD:
+    - {fileName: VMD}

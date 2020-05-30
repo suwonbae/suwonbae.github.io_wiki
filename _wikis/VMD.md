@@ -1,10 +1,10 @@
 ---
-layout  : wiki
+layout  : category
 title   : VMD
 summary : Visual Molecular Dynamics
 date    : 2020/05/27 22:49:06
-updated : 2020/05/27 22:53:29
-tag     : vmd tcl
+updated : 2020/05/30 01:26:41
+tag     : vmd tcl MD
 toc     : true
 public  : true
 parent  : [[scripting]]
