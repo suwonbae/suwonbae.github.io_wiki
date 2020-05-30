@@ -8,8 +8,8 @@ title: Wikilog
 	<h4><a href="./wiki_reverse.html">Sorting: oldest to latest</a></h4>
 	<ul class="post-list">
 {% assign documents = site.wikis | sort: 'updated' | reverse %}
-{% for doc in documents limit: 15 %}
-	{% if doc.public != 'false' and doc.title != 'wiki' %}
+{% for doc in documents %}
+	{% if doc.public != false and doc.title != 'wiki' %}
 		<li>
 			<div>
 				<a class="post-link" href="{{ doc.url }}">
@@ -23,7 +23,7 @@ title: Wikilog
 					<li class="post-tag">
 						{% assign tags = doc.tag %}
 						{% for tag in tags %}
-						# {{ tag }}
+						#{{ tag }}
 						{% endfor %}
 					</li>
 				</ul>

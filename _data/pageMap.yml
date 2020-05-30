@@ -70,46 +70,6 @@ index:
     url: /wikis/index
     updated: '2020/05/30 01:25:41'
     children: []
-iPhone:
-    type: wiki
-    title: iPhone
-    summary: ""
-    parent: index
-    url: /wikis/iPhone
-    updated: '2020/05/26 14:21:28'
-    children: [iPhone7, iPhoneSE]
-iPhone7:
-    type: wiki
-    title: 'iPhone 7'
-    summary: ""
-    parent: iPhone
-    url: /wikis/iPhone7
-    updated: '2020/05/26 23:54:18'
-    children: []
-iPhoneSE:
-    type: wiki
-    title: 'Two editions of iPhone SE'
-    summary: ""
-    parent: iPhone
-    url: /wikis/iPhoneSE
-    updated: '2020/05/25 15:13:51'
-    children: [iPhoneSE1, iPhoneSE2]
-iPhoneSE1:
-    type: wiki
-    title: 'The first edition of SE'
-    summary: ""
-    parent: iPhoneSE
-    url: /wikis/iPhoneSE1
-    updated: '2020/05/25 15:13:57'
-    children: []
-iPhoneSE2:
-    type: wiki
-    title: 'The SE of iPhoneSE'
-    summary: ""
-    parent: iPhoneSE
-    url: /wikis/iPhoneSE2
-    updated: '2020/05/25 15:14:02'
-    children: []
 lemons:
     type: wiki
     title: Lemons

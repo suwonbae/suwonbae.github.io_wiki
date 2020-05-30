@@ -8,7 +8,7 @@ title: Suwon Bae
 	<ul class="post-list">
 {% assign documents = site.wikis | sort: 'updated' | reverse %}
 {% for doc in documents limit: 15 %}
-	{% if doc.public != 'false' and doc.title != 'wiki' %}
+	{% if doc.public != false and doc.title != 'wiki' %}
 		<li>
 			<div>
 				<a class="post-link" href="{{ doc.url }}">
