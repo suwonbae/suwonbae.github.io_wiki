@@ -4,12 +4,15 @@ equation:
     - {fileName: 2020-05-22-test2}
 vmd:
     - {fileName: arguments}
+    - {fileName: variable-to-string}
     - {fileName: VMD}
 tcl:
     - {fileName: arguments}
+    - {fileName: variable-to-string}
     - {fileName: VMD}
 arguments:
     - {fileName: arguments}
+    - {fileName: variable-to-string}
 fruit:
     - {fileName: bananas}
     - {fileName: lemons}
@@ -25,3 +28,5 @@ mint:
     - {fileName: growingherb}
 citrus:
     - {fileName: lemons}
+string:
+    - {fileName: variable-to-string}
