@@ -30,6 +30,14 @@ rosemary:
     - {fileName: growingherb}
 mint:
     - {fileName: growingherb}
+jupyter:
+    - {fileName: jupyter}
+    - {fileName: running-a-jupyter-notebook-sever}
+IDE:
+    - {fileName: jupyter}
+python:
+    - {fileName: jupyter}
+    - {fileName: running-a-jupyter-notebook-sever}
 citrus:
     - {fileName: lemons}
 string:

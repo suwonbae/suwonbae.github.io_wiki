@@ -68,8 +68,16 @@ index:
     summary: ""
     parent: ""
     url: /wikis/index
-    updated: '2020/05/30 01:25:41'
+    updated: '2020/06/05 01:21:54'
     children: []
+jupyter:
+    type: wiki
+    title: jupyter
+    summary: ""
+    parent: index
+    url: /wikis/jupyter
+    updated: '2020/06/05 01:21:08'
+    children: [running-a-jupyter-notebook-sever]
 lemons:
     type: wiki
     title: Lemons
@@ -86,6 +94,14 @@ research:
     url: /wikis/research
     updated: '2020/05/26 05:46:47'
     children: [2020-05-22-test]
+running-a-jupyter-notebook-sever:
+    type: wiki
+    title: 'Running a notebook server'
+    summary: ""
+    parent: jupyter
+    url: /wikis/running-a-jupyter-notebook-sever
+    updated: '2020/06/05 01:56:23'
+    children: []
 scripting:
     type: wiki
     title: scripting

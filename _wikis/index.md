@@ -3,7 +3,7 @@ layout  : wikiindex
 title   : wiki 
 summary : 
 date    : 2020/05/25 01:09:31
-updated : 2020/05/30 01:25:41
+updated : 2020/06/05 01:21:54
 category:
 tags    : 
 toc     : true
@@ -27,3 +27,5 @@ parent  :
 # [[tools]]
 	* [[git]]
 		* [[gitupdate]]
+	* [[jupyter]]
+		* [[running-a-jupyter-notebook-sever]]
