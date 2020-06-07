@@ -3,10 +3,10 @@ layout  : wiki
 title   : How easy is it to grow cilantro?
 summary : transplant, water, and harvest
 date    : 2020/05/26 02:38:40
-updated : 2020/05/26 02:39:29
+updated : 2020/06/07 02:25:32
 tag     : herb cilantro basil rosemary mint
 toc     : true
-public  : true
+public  : false
 parent  : 
 latex   : false
 ---

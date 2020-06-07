@@ -54,14 +54,6 @@ gitupdate:
     url: /wikis/gitupdate
     updated: '2020/05/30 00:52:29'
     children: []
-growingherb:
-    type: wiki
-    title: 'How easy is it to grow cilantro?'
-    summary: 'transplant, water, and harvest'
-    parent: ""
-    url: /wikis/growingherb
-    updated: '2020/05/26 02:39:29'
-    children: []
 index:
     type: wiki
     title: wiki

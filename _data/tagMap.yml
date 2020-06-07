@@ -20,16 +20,6 @@ git:
     - {fileName: git}
 version:
     - {fileName: git}
-herb:
-    - {fileName: growingherb}
-cilantro:
-    - {fileName: growingherb}
-basil:
-    - {fileName: growingherb}
-rosemary:
-    - {fileName: growingherb}
-mint:
-    - {fileName: growingherb}
 jupyter:
     - {fileName: jupyter}
     - {fileName: running-a-jupyter-notebook-sever}
