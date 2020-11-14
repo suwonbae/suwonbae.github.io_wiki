@@ -60,7 +60,15 @@ index:
     summary: ""
     parent: ""
     url: /wikis/index
-    updated: '2020/06/05 01:21:54'
+    updated: '2020/11/13 20:06:39'
+    children: []
+'installing python without permission':
+    type: wiki
+    title: 'How to install python with no permission'
+    summary: ""
+    parent: python
+    url: '/wikis/installing python without permission'
+    updated: '2020/11/13 20:41:07'
     children: []
 jupyter:
     type: wiki
@@ -78,6 +86,14 @@ lemons:
     url: /wikis/lemons
     updated: '2020/05/26 05:31:39'
     children: []
+python:
+    type: wiki
+    title: python
+    summary: ""
+    parent: index
+    url: /wikis/python
+    updated: '2020/11/13 20:04:40'
+    children: ['installing python without permission']
 research:
     type: wiki
     title: research

@@ -20,14 +20,16 @@ git:
     - {fileName: git}
 version:
     - {fileName: git}
+python:
+    - {fileName: 'installing python without permission'}
+    - {fileName: jupyter}
+    - {fileName: python}
+    - {fileName: running-a-jupyter-notebook-sever}
 jupyter:
     - {fileName: jupyter}
     - {fileName: running-a-jupyter-notebook-sever}
 IDE:
     - {fileName: jupyter}
-python:
-    - {fileName: jupyter}
-    - {fileName: running-a-jupyter-notebook-sever}
 citrus:
     - {fileName: lemons}
 string:
