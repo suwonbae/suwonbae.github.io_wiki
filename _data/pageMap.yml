@@ -32,11 +32,11 @@ bananas:
     children: []
 etc:
     type: wiki
-    title: ""
+    title: etc
     summary: ""
     parent: tools
     url: /wikis/etc
-    updated: '2020/12/20 20:37:28'
+    updated: '2020/12/20 21:07:40'
     children: []
 fun:
     type: wiki
