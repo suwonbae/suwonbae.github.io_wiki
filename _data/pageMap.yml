@@ -132,7 +132,7 @@ terminal:
     summary: ""
     parent: tools
     url: /wikis/terminal
-    updated: '2020/12/20 20:38:57'
+    updated: '2020/12/20 20:48:10'
     children: ['Using Options as Meta key']
 tools:
     type: wiki
