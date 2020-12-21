@@ -3,7 +3,7 @@ layout  : wikiindex
 title   : wiki 
 summary : 
 date    : 2020/05/25 01:09:31
-updated : 2020/12/20 20:36:10
+updated : 2020/12/20 21:04:24
 category:
 tags    : 
 toc     : true
@@ -32,7 +32,7 @@ parent  :
 	* [[python]] 
 		* [[installing python without permission]]
 	* [[vim]]
-		*  
+		* [[vimwiki]]
 	* [[terminal]]
 		* [[Using Options as Meta key]]
 	* [[etc]]

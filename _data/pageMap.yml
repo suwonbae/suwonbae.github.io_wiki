@@ -68,7 +68,7 @@ index:
     summary: ""
     parent: ""
     url: /wikis/index
-    updated: '2020/12/20 20:36:10'
+    updated: '2020/12/20 21:04:24'
     children: []
 'installing python without permission':
     type: wiki
@@ -160,11 +160,19 @@ variable-to-string:
     children: []
 vim:
     type: wiki
-    title: ""
+    title: vim
     summary: ""
     parent: tools
     url: /wikis/vim
-    updated: '2020/12/20 20:38:50'
+    updated: '2020/12/20 21:04:34'
+    children: [vimwiki]
+vimwiki:
+    type: wiki
+    title: 'how to use wiki'
+    summary: ""
+    parent: vim
+    url: /wikis/vimwiki
+    updated: '2020/12/20 21:04:28'
     children: []
 VMD:
     type: wiki

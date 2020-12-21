@@ -36,5 +36,7 @@ prompt:
     - {fileName: 'Using Options as Meta key'}
 string:
     - {fileName: variable-to-string}
+vimwiki:
+    - {fileName: vimwiki}
 MD:
     - {fileName: VMD}
