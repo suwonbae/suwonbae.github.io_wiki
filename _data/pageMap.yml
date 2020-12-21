@@ -128,11 +128,11 @@ scripting:
     children: [VMD]
 terminal:
     type: wiki
-    title: ""
+    title: terminal
     summary: ""
     parent: tools
     url: /wikis/terminal
-    updated: '2020/12/20 20:48:10'
+    updated: '2020/12/20 20:53:26'
     children: ['Using Options as Meta key']
 tools:
     type: wiki
