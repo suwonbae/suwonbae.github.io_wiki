@@ -30,6 +30,14 @@ bananas:
     url: /wikis/bananas
     updated: '2020/05/26 05:31:24'
     children: []
+etc:
+    type: wiki
+    title: ""
+    summary: ""
+    parent: tools
+    url: /wikis/etc
+    updated: '2020/12/20 20:37:28'
+    children: []
 fun:
     type: wiki
     title: fun
@@ -60,7 +68,7 @@ index:
     summary: ""
     parent: ""
     url: /wikis/index
-    updated: '2020/11/13 20:06:39'
+    updated: '2020/12/20 20:36:10'
     children: []
 'installing python without permission':
     type: wiki
@@ -118,6 +126,14 @@ scripting:
     url: /wikis/scripting
     updated: '2020/05/27 22:46:02'
     children: [VMD]
+terminal:
+    type: wiki
+    title: ""
+    summary: ""
+    parent: tools
+    url: /wikis/terminal
+    updated: '2020/12/20 20:38:57'
+    children: ['Using Options as Meta key']
 tools:
     type: wiki
     title: tools
@@ -125,7 +141,15 @@ tools:
     parent: index
     url: /wikis/tools
     updated: '2020/05/29 04:58:40'
-    children: [git]
+    children: [etc, git, terminal, vim]
+'Using Options as Meta key':
+    type: wiki
+    title: 'Using Options as Meta key'
+    summary: ""
+    parent: terminal
+    url: '/wikis/Using Options as Meta key'
+    updated: '2020/12/20 20:39:22'
+    children: []
 variable-to-string:
     type: wiki
     title: 'VMD - variable to string'
@@ -133,6 +157,14 @@ variable-to-string:
     parent: VMD
     url: /wikis/variable-to-string
     updated: '2020/05/30 01:15:42'
+    children: []
+vim:
+    type: wiki
+    title: ""
+    summary: ""
+    parent: tools
+    url: /wikis/vim
+    updated: '2020/12/20 20:38:50'
     children: []
 VMD:
     type: wiki

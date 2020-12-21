@@ -32,6 +32,8 @@ IDE:
     - {fileName: jupyter}
 citrus:
     - {fileName: lemons}
+prompt:
+    - {fileName: 'Using Options as Meta key'}
 string:
     - {fileName: variable-to-string}
 MD:
