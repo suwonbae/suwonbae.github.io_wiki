@@ -37,7 +37,7 @@ etc:
     parent: tools
     url: /wikis/etc
     updated: '2020/12/20 21:07:40'
-    children: []
+    children: [Using-HiDPI-custom-resolutions]
 fun:
     type: wiki
     title: fun
@@ -68,7 +68,7 @@ index:
     summary: ""
     parent: ""
     url: /wikis/index
-    updated: '2020/12/20 21:04:24'
+    updated: '2020/12/21 22:51:05'
     children: []
 'installing python without permission':
     type: wiki
@@ -149,6 +149,14 @@ tools:
     parent: terminal
     url: '/wikis/Using Options as Meta key'
     updated: '2020/12/20 20:39:22'
+    children: []
+Using-HiDPI-custom-resolutions:
+    type: wiki
+    title: 'How to use HiDPI resolutions'
+    summary: 'But FHD HiDPI is not activated on my U2719D'
+    parent: etc
+    url: /wikis/Using-HiDPI-custom-resolutions
+    updated: '2020/12/21 22:56:44'
     children: []
 variable-to-string:
     type: wiki

@@ -34,6 +34,10 @@ citrus:
     - {fileName: lemons}
 prompt:
     - {fileName: 'Using Options as Meta key'}
+mac:
+    - {fileName: Using-HiDPI-custom-resolutions}
+hidpi:
+    - {fileName: Using-HiDPI-custom-resolutions}
 string:
     - {fileName: variable-to-string}
 vimwiki:

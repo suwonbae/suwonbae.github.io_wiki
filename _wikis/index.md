@@ -3,7 +3,7 @@ layout  : wikiindex
 title   : wiki 
 summary : 
 date    : 2020/05/25 01:09:31
-updated : 2020/12/20 21:04:24
+updated : 2020/12/21 22:51:05
 category:
 tags    : 
 toc     : true
@@ -36,3 +36,4 @@ parent  :
 	* [[terminal]]
 		* [[Using Options as Meta key]]
 	* [[etc]]
+		* [[Using-HiDPI-custom-resolutions]]
