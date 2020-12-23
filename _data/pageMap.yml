@@ -70,13 +70,21 @@ gitupdate:
     url: /wikis/gitupdate
     updated: '2020/05/30 00:52:29'
     children: []
+how-to-install-vim-without-permission:
+    type: wiki
+    title: 'Installing Vim without permission'
+    summary: ""
+    parent: vim
+    url: /wikis/how-to-install-vim-without-permission
+    updated: '2020/12/23 15:31:51'
+    children: []
 index:
     type: wiki
     title: wiki
     summary: ""
     parent: ""
     url: /wikis/index
-    updated: '2020/12/23 15:11:18'
+    updated: '2020/12/23 15:28:30'
     children: []
 'installing python without permission':
     type: wiki
@@ -189,7 +197,7 @@ vim:
     parent: tools
     url: /wikis/vim
     updated: '2020/12/20 21:04:34'
-    children: [vimwiki]
+    children: [how-to-install-vim-without-permission, vimwiki]
 vimwiki:
     type: wiki
     title: 'how to use wiki'

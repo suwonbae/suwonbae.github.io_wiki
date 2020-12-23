@@ -22,6 +22,10 @@ git:
     - {fileName: git}
 version:
     - {fileName: git}
+vim:
+    - {fileName: how-to-install-vim-without-permission}
+sudo:
+    - {fileName: how-to-install-vim-without-permission}
 python:
     - {fileName: 'installing python without permission'}
     - {fileName: jupyter}
