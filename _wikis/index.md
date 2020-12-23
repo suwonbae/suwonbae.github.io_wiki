@@ -3,7 +3,7 @@ layout  : wikiindex
 title   : wiki 
 summary : 
 date    : 2020/05/25 01:09:31
-updated : 2020/12/21 22:51:05
+updated : 2020/12/23 15:11:18
 category:
 tags    : 
 toc     : true
@@ -35,5 +35,7 @@ parent  :
 		* [[vimwiki]]
 	* [[terminal]]
 		* [[Using Options as Meta key]]
+	* [[shell]]
+		* [[A-certain-path-ahead-of-usr-bin]]
 	* [[etc]]
 		* [[Using-HiDPI-custom-resolutions]]

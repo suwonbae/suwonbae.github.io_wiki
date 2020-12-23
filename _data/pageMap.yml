@@ -14,6 +14,14 @@
     url: /wikis/2020-05-22-test2
     updated: '2020/05/26 05:31:32'
     children: []
+A-certain-path-ahead-of-usr-bin:
+    type: wiki
+    title: 'Amending PATH to have a certain path ahead of /usr/bin'
+    summary: ""
+    parent: shell
+    url: /wikis/A-certain-path-ahead-of-usr-bin
+    updated: '2020/12/23 15:14:32'
+    children: []
 arguments:
     type: wiki
     title: 'VMD - command line arguments'
@@ -68,7 +76,7 @@ index:
     summary: ""
     parent: ""
     url: /wikis/index
-    updated: '2020/12/21 22:51:05'
+    updated: '2020/12/23 15:11:18'
     children: []
 'installing python without permission':
     type: wiki
@@ -126,6 +134,14 @@ scripting:
     url: /wikis/scripting
     updated: '2020/05/27 22:46:02'
     children: [VMD]
+shell:
+    type: wiki
+    title: shell
+    summary: ""
+    parent: index
+    url: /wikis/shell
+    updated: '2020/12/23 15:08:26'
+    children: [A-certain-path-ahead-of-usr-bin]
 terminal:
     type: wiki
     title: terminal

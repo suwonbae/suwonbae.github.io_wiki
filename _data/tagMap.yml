@@ -2,6 +2,8 @@ data:
     - {fileName: 2020-05-22-test}
 equation:
     - {fileName: 2020-05-22-test2}
+path:
+    - {fileName: A-certain-path-ahead-of-usr-bin}
 vmd:
     - {fileName: arguments}
     - {fileName: variable-to-string}
@@ -32,6 +34,8 @@ IDE:
     - {fileName: jupyter}
 citrus:
     - {fileName: lemons}
+bash:
+    - {fileName: shell}
 prompt:
     - {fileName: 'Using Options as Meta key'}
 mac:

@@ -1,4 +1,5 @@
 - arguments
+- bash
 - citrus
 - data
 - equation
@@ -9,6 +10,7 @@
 - jupyter
 - mac
 - MD
+- path
 - prompt
 - python
 - string
